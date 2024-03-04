@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import { Box, Avatar, Typography, CircularProgress } from "@mui/material";
+import { useEffect, useRef } from "react";
+import { Box, Avatar, Typography } from "@mui/material";
 import { useAuth } from "../../context/AuthContext";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { coldarkDark } from "react-syntax-highlighter/dist/esm/styles/prism";
